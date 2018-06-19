@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ChilledPlaylist" />
+        <activity android:name=".HoopingPlaylist" />
+        <activity android:name=".FavoritesPlaylist" />
+        <activity android:name=".GymPlaylist" />
     </application>
 
 </manifest>

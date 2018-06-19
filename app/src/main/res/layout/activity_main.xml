@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/black"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.example.android.musicstructureapp.MainActivity">
 
     <TextView
         android:id="@+id/chilled"
         style="@style/CategoriesStyle"
-        android:layout_marginTop="@dimen/paddingVertical"
+        android:layout_marginTop="@dimen/padding"
         android:textColor="@color/category_chilled"
         android:text="@string/category_chilled"/>
 
