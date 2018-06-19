@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#464646</color>
+    <color name="colorPrimaryDark">#1f1f1f</color>
+    <color name="colorAccent">#717171</color>
+
+    <!-- Categories -->
+    <color name="category_chilled">#00838f</color>
+    <color name="category_hooping">#ce93d8</color>
+    <color name="category_gym">#6200ea</color>
+    <color name="category_favorites">#e57373</color>
+</resources>

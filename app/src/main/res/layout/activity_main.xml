@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context="com.example.android.musicstructureapp.MainActivity">
+
+    <TextView
+        android:id="@+id/chilled"
+        style="@style/CategoriesStyle"
+        android:layout_marginTop="@dimen/paddingVertical"
+        android:textColor="@color/category_chilled"
+        android:text="@string/category_chilled"/>
+
+    <TextView
+        android:id="@+id/chilled_desc"
+        style="@style/DescriptionsStyle"
+        android:textColor="@color/category_chilled"
+        android:text="@string/chilled_description"/>
+
+    <TextView
+        android:id="@+id/hooping"
+        style="@style/CategoriesStyle"
+        android:textColor="@color/category_hooping"
+        android:text="@string/category_hooping"/>
+
+    <TextView
+        android:id="@+id/hooping_desc"
+        style="@style/DescriptionsStyle"
+        android:textColor="@color/category_hooping"
+        android:text="@string/hooping_description"/>
+
+    <TextView
+        android:id="@+id/gym"
+        style="@style/CategoriesStyle"
+        android:textColor="@color/category_gym"
+        android:text="@string/category_gym"/>
+
+    <TextView
+        android:id="@+id/gym_desc"
+        style="@style/DescriptionsStyle"
+        android:textColor="@color/category_gym"
+        android:text="@string/gym_description"/>
+
+    <TextView
+        android:id="@+id/favorites"
+        style="@style/CategoriesStyle"
+        android:textColor="@color/category_favorites"
+        android:text="@string/category_favorites"/>
+
+    <TextView
+        android:id="@+id/favorites_desc"
+        style="@style/DescriptionsStyle"
+        android:textColor="@color/category_favorites"
+        android:text="@string/favorites_description"/>
+
+</LinearLayout>

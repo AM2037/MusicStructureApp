@@ -1,0 +1,12 @@
+<resources>
+    <!-- Formatting -->
+    <dimen name="paddingHorizontal">16dp</dimen>
+    <dimen name="paddingVertical">16dp</dimen>
+    <dimen name="margins">16dp</dimen>
+    <dimen name="list_height">50dp</dimen>
+    <dimen name="desc_height">100dp</dimen>
+
+    <!-- TextViews -->
+    <dimen name="song_name">18sp</dimen>
+    <dimen name="artist_name">16sp</dimen>
+</resources>

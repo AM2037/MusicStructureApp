@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MusicStructureApp</string>
+    <string name="category_chilled">Chilled Playlist</string>
+    <string name="chilled_description">Here you will find all things chill from melodic dubstep to soulful R\u0026B! I find these are perfect for lounging around the house, studying to, or just playing in the background during social events.</string>
+    <string name="category_hooping">Hooping Playlist</string>
+    <string name="hooping_description">I personally prefer to hula hoop to these tracks as they range from rather upbeat to grimy drops perfect for paddles \u0026b breaks! What flow arts could you apply these to?</string>
+    <string name="category_gym">Gym Playlist</string>
+    <string name="gym_description">Whenever I am ready to go train at the gym I make sure to have at least a fair number of these queued up! They provide the best soundscapes for cardio and motivation!</string>
+    <string name="category_favorites">Favorites Playlist</string>
+    <string name="favorites_description">And last but certainly not least, here are just a few of my absolute favorite songs that I\'ve collected over the years&#8230; Enjoy!</string>
+</resources>
