@@ -13,28 +13,28 @@ public class FavoritesPlaylist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
+
         ArrayList<Track> songs = new ArrayList<>();
-        songs.add(new Track("Tritonal ft. Cristina Soto (Seven Lions Mix)", "Still With Me"));
-        songs.add(new Track("Paramore (Live in Philadelphia)", "I Caught Myself"));
-        songs.add(new Track("G Jones & Bleep Bloop", "A$∆¶ M'§"));
-        songs.add(new Track("Plantrae", "Enter the Seed"));
-        songs.add(new Track("Minnesota", "Stardust Redux"));
-        songs.add(new Track("Zhu", "Secret Weapon"));
-        songs.add(new Track("Alina Baraz ft. Khalid", "Electric"));
-        songs.add(new Track("Tash Sultana (Live Bedroom Recording)", "Gemini"));
-        songs.add(new Track("Aurora", "Queendom"));
-        songs.add(new Track("Neo Noir ft. Brooke Williams", "When I Was Young"));
-        songs.add(new Track("Blackmill", "Spirit of Life"));
-        songs.add(new Track("Pendulum", "Watercolour"));
-        songs.add(new Track("Snavs & ReauBeau", "Dreams"));
-        songs.add(new Track("Crywolf", "Wake [E-bow]"));
-        songs.add(new Track("Seven Lions", "Isis (Deep Mix)"));
-        songs.add(new Track("Quixotic & The Human Experience", "From the Outside Looking In"));
-        songs.add(new Track("The Weeknd", "Outside"));
-        songs.add(new Track("Brothel", "Q"));
-        songs.add(new Track("Halsey (Oscar's Remix)", "Gasoline"));
-        songs.add(new Track("alt-J", "Hunger of the Pine"));
-        songs.add(new Track("Porter Robinson (Big Sandz Remix)", "Fellow Feeling"));
+        songs.add(new Track(getString(R.string.favorites_artist1), getString(R.string.favorites_song1)));
+        songs.add(new Track(getString(R.string.favorites_artist2), getString(R.string.favorites_song2)));
+        songs.add(new Track(getString(R.string.favorites_artist3), getString(R.string.favorites_song3)));
+        songs.add(new Track(getString(R.string.favorites_artist4), getString(R.string.favorites_song4)));
+        songs.add(new Track(getString(R.string.favorites_artist5), getString(R.string.favorites_song5)));
+        songs.add(new Track(getString(R.string.favorites_artist6), getString(R.string.favorites_song6)));
+        songs.add(new Track(getString(R.string.favorites_artist7), getString(R.string.favorites_song7)));
+        songs.add(new Track(getString(R.string.favorites_artist8), getString(R.string.favorites_song8)));
+        songs.add(new Track(getString(R.string.favorites_artist9), getString(R.string.favorites_song9)));
+        songs.add(new Track(getString(R.string.favorites_artist10), getString(R.string.favorites_song10)));
+        songs.add(new Track(getString(R.string.favorites_artist11), getString(R.string.favorites_song11)));
+        songs.add(new Track(getString(R.string.favorites_artist12), getString(R.string.favorites_song12)));
+        songs.add(new Track(getString(R.string.favorites_artist13), getString(R.string.favorites_song13)));
+        songs.add(new Track(getString(R.string.favorites_artist14), getString(R.string.favorites_song14)));
+        songs.add(new Track(getString(R.string.favorites_artist15), getString(R.string.favorites_song15)));
+        songs.add(new Track(getString(R.string.favorites_artist16), getString(R.string.favorites_song16)));
+        songs.add(new Track(getString(R.string.favorites_artist17), getString(R.string.favorites_song17)));
+        songs.add(new Track(getString(R.string.favorites_artist18), getString(R.string.favorites_song18)));
+        songs.add(new Track(getString(R.string.favorites_artist19), getString(R.string.favorites_song19)));
+        songs.add(new Track(getString(R.string.favorites_artist20), getString(R.string.favorites_song20)));
 
         /*Create {@link PlaylistAdapter} which creates layouts for each list item
          @param songs represents a list of tracks, shown above*/

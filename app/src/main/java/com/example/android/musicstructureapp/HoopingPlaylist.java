@@ -13,28 +13,28 @@ public class HoopingPlaylist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
+
         ArrayList<Track> songs = new ArrayList<>();
-        songs.add(new Track("San Holo (Taska Black Remix)", "Light"));
-        songs.add(new Track("Rufus X What So Not X Flume (Ekali Remix)", "Neverbloom"));
-        songs.add(new Track("Virtual Self", "Eon Break"));
-        songs.add(new Track("Said the Sky ft. Kwesi", "All I Got"));
-        songs.add(new Track("Jauz X Ghastly", "Ghosts N' Sharks"));
-        songs.add(new Track("Griz", "Griz Unreleased"));
-        songs.add(new Track("kua X Pretty Lights X Bassnectar", "One Thing & Solar Sailor"));
-        songs.add(new Track("Alison Wonderland (Vincent Remix)", "U don't know"));
-        songs.add(new Track("Alina Baraz & Galimatias (Ekali Mix)", "Can I"));
-        songs.add(new Track("BoomBox Cartel & QUIX ft. Anjulie", "Supernatural"));
-        songs.add(new Track("Khalid & Normandi", "Love Lies"));
-        songs.add(new Track("Marshmello X Ookay", "Chasing Colors"));
-        songs.add(new Track("Sikdope", "Stardust"));
-        songs.add(new Track("Neovaii", "Not You"));
-        songs.add(new Track("Point Point (Khamsin Mix)", "Life in Grey"));
-        songs.add(new Track("Bassnectar & G Jones", "The Mystery Spot"));
-        songs.add(new Track("Lostboycrow (Kill Paris Remix)", "Powers"));
-        songs.add(new Track("Above & Beyond (Seven Lions Mix)", "You Got To Go"));
-        songs.add(new Track("Tory Lanez x Play Picasso x CoopChardonnay", "Proud Family"));
-        songs.add(new Track("BLU J x MOONZz", "GDBYE"));
-        songs.add(new Track("Aero Chord x Fractal (ft. Q'AILA)", "Until the End"));
+        songs.add(new Track(getString(R.string.hooping_artist1), getString(R.string.hooping_song1)));
+        songs.add(new Track(getString(R.string.hooping_artist2), getString(R.string.hooping_song2)));
+        songs.add(new Track(getString(R.string.hooping_artist3), getString(R.string.hooping_song3)));
+        songs.add(new Track(getString(R.string.hooping_artist4), getString(R.string.hooping_song4)));
+        songs.add(new Track(getString(R.string.hooping_artist5), getString(R.string.hooping_song5)));
+        songs.add(new Track(getString(R.string.hooping_artist6), getString(R.string.hooping_song6)));
+        songs.add(new Track(getString(R.string.hooping_artist7), getString(R.string.hooping_song7)));
+        songs.add(new Track(getString(R.string.hooping_artist8), getString(R.string.hooping_song8)));
+        songs.add(new Track(getString(R.string.hooping_artist9), getString(R.string.hooping_song9)));
+        songs.add(new Track(getString(R.string.hooping_artist10), getString(R.string.hooping_song10)));
+        songs.add(new Track(getString(R.string.hooping_artist11), getString(R.string.hooping_song11)));
+        songs.add(new Track(getString(R.string.hooping_artist12), getString(R.string.hooping_song12)));
+        songs.add(new Track(getString(R.string.hooping_artist13), getString(R.string.hooping_song13)));
+        songs.add(new Track(getString(R.string.hooping_artist14), getString(R.string.hooping_song14)));
+        songs.add(new Track(getString(R.string.hooping_artist15), getString(R.string.hooping_song15)));
+        songs.add(new Track(getString(R.string.hooping_artist16), getString(R.string.hooping_song16)));
+        songs.add(new Track(getString(R.string.hooping_artist17), getString(R.string.hooping_song17)));
+        songs.add(new Track(getString(R.string.hooping_artist18), getString(R.string.hooping_song18)));
+        songs.add(new Track(getString(R.string.hooping_artist19), getString(R.string.hooping_song19)));
+        songs.add(new Track(getString(R.string.hooping_artist20), getString(R.string.hooping_song20)));
 
         /*Create {@link PlaylistAdapter} which creates layouts for each list item
          @param songs represents a list of tracks, shown above*/

@@ -6,12 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+
 public class MainActivity extends AppCompatActivity {
 
     TextView chilled = null;
     TextView hooping = null;
     TextView gym = null;
     TextView favorites = null;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

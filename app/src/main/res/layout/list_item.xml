@@ -9,8 +9,8 @@
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:padding="@dimen/padding">
 
-   <ImageView
-        android:id="@+id/list_icon"
+
+    <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@mipmap/baseline_play_circle_filled_white_48"

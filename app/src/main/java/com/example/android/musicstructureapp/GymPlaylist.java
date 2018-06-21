@@ -2,7 +2,6 @@ package com.example.android.musicstructureapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -14,28 +13,28 @@ public class GymPlaylist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
+
         ArrayList<Track> songs = new ArrayList<>();
-        songs.add(new Track("Snails", "Snailed it vol.3 [Enter Slugz City]"));
-        songs.add(new Track("Rufus X What So Not X Flume (Ekali Remix)", "Neverbloom"));
-        songs.add(new Track("Urbanstep", "Welcome to Wonderland"));
-        songs.add(new Track("Like a B****", "Zomboy"));
-        songs.add(new Track("Flux Pavilion ft. Tom Cane (Cookie Monsta Remix)", "Feels Good"));
-        songs.add(new Track("Excision & Dion Timmer", "Africa"));
-        songs.add(new Track("Excision ft. Sam King", "G Sh**"));
-        songs.add(new Track("Kodak To Graph", "I AM ANTHEM"));
-        songs.add(new Track("Zeds Dead X Megalodon", "Wit Me Dub"));
-        songs.add(new Track("Dizzy Wright", "Floyd Money Mayweather"));
-        songs.add(new Track("Lil Boosie (Brillz & Snails Bootleg)", "Crazy"));
-        songs.add(new Track("Sikdope", "Pieces"));
-        songs.add(new Track("BoomBox Cartel", "Virus"));
-        songs.add(new Track("Diskord", "Ur Luv"));
-        songs.add(new Track("Seven Lions ft. Xilent", "The Fall"));
-        songs.add(new Track("G Jones", "F*CK WHAT YOU HEARD"));
-        songs.add(new Track("RL Grime (Mura Masa Remix)", "Kingpin"));
-        songs.add(new Track("Mura Masa (Vincent Remix)", "Hell"));
-        songs.add(new Track("Getter & Adair ft. Georgia Ku", "Blood"));
-        songs.add(new Track("Zella Day (StéLouse Remix)", "East of Eden"));
-        songs.add(new Track("NGHTMRE & SLANDER", "GUD VIBRATIONS"));
+        songs.add(new Track(getString(R.string.gym_artist1), getString(R.string.gym_song1)));
+        songs.add(new Track(getString(R.string.gym_artist2), getString(R.string.gym_song2)));
+        songs.add(new Track(getString(R.string.gym_artist3), getString(R.string.gym_song3)));
+        songs.add(new Track(getString(R.string.gym_artist4), getString(R.string.gym_song4)));
+        songs.add(new Track(getString(R.string.gym_artist5), getString(R.string.gym_song5)));
+        songs.add(new Track(getString(R.string.gym_artist6), getString(R.string.gym_song6)));
+        songs.add(new Track(getString(R.string.gym_artist7), getString(R.string.gym_song7)));
+        songs.add(new Track(getString(R.string.gym_artist8), getString(R.string.gym_song8)));
+        songs.add(new Track(getString(R.string.gym_artist9), getString(R.string.gym_song9)));
+        songs.add(new Track(getString(R.string.gym_artist10), getString(R.string.gym_song10)));
+        songs.add(new Track(getString(R.string.gym_artist11), getString(R.string.gym_song11)));
+        songs.add(new Track(getString(R.string.gym_artist12), getString(R.string.gym_song12)));
+        songs.add(new Track(getString(R.string.gym_artist13), getString(R.string.gym_song13)));
+        songs.add(new Track(getString(R.string.gym_artist14), getString(R.string.gym_song14)));
+        songs.add(new Track(getString(R.string.gym_artist15), getString(R.string.gym_song15)));
+        songs.add(new Track(getString(R.string.gym_artist16), getString(R.string.gym_song16)));
+        songs.add(new Track(getString(R.string.gym_artist17), getString(R.string.gym_song17)));
+        songs.add(new Track(getString(R.string.gym_artist18), getString(R.string.gym_song18)));
+        songs.add(new Track(getString(R.string.gym_artist19), getString(R.string.gym_song19)));
+        songs.add(new Track(getString(R.string.gym_artist20), getString(R.string.gym_song20)));
 
         /*Create {@link PlaylistAdapter} which creates layouts for each list item
          @param songs represents a list of tracks, shown above*/

@@ -13,28 +13,28 @@ public class ChilledPlaylist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
+
         ArrayList<Track> songs = new ArrayList<>();
-        songs.add(new Track("Ekali & Zhu", "Blame"));
-        songs.add(new Track("6lack", "Free"));
-        songs.add(new Track("Sonder", "Too Fast"));
-        songs.add(new Track("Duke Dumont", "Ocean Drive"));
-        songs.add(new Track("Billie Eilish & Khalid", "Lovely"));
-        songs.add(new Track("Marshmello ft. Khalid", "Silence"));
-        songs.add(new Track("Ookay", "Thief"));
-        songs.add(new Track("Ghastly", "I'll Wait"));
-        songs.add(new Track("Dpat", "Bloom"));
-        songs.add(new Track("James Blake", "Retrograde"));
-        songs.add(new Track("BoomBox Cartel ft. Nevve", "Whisper"));
-        songs.add(new Track("Rezz", "Clear"));
-        songs.add(new Track("Dabin", "Lillith"));
-        songs.add(new Track("Feder ft. Lyse", "GOODBYE"));
-        songs.add(new Track("Blackmill", "Gaia"));
-        songs.add(new Track("Taska Black ft. Pauline Herr", "Nothing Lasts"));
-        songs.add(new Track("Daniel Caesar ft. Kali Uchis", "Get You"));
-        songs.add(new Track("Kaskade vs ZHU", "In the Morning"));
-        songs.add(new Track("What So Not ft. George Maple -- Ekali Mix", "Gemini"));
-        songs.add(new Track("Elliot Moss", "Without the Lights"));
-        songs.add(new Track("Gallant", "Manhattan-- Real Slow Mix"));
+        songs.add(new Track(getString(R.string.chilled_artist1), getString(R.string.chilled_song1)));
+        songs.add(new Track(getString(R.string.chilled_artist2), getString(R.string.chilled_song2)));
+        songs.add(new Track(getString(R.string.chilled_artist3), getString(R.string.chilled_song3)));
+        songs.add(new Track(getString(R.string.chilled_artist4), getString(R.string.chilled_song4)));
+        songs.add(new Track(getString(R.string.chilled_artist5), getString(R.string.chilled_song5)));
+        songs.add(new Track(getString(R.string.chilled_artist6), getString(R.string.chilled_song6)));
+        songs.add(new Track(getString(R.string.chilled_artist7), getString(R.string.chilled_song7)));
+        songs.add(new Track(getString(R.string.chilled_artist8), getString(R.string.chilled_song8)));
+        songs.add(new Track(getString(R.string.chilled_artist9), getString(R.string.chilled_song9)));
+        songs.add(new Track(getString(R.string.chilled_artist10), getString(R.string.chilled_song10)));
+        songs.add(new Track(getString(R.string.chilled_artist11), getString(R.string.chilled_song11)));
+        songs.add(new Track(getString(R.string.chilled_artist12), getString(R.string.chilled_song12)));
+        songs.add(new Track(getString(R.string.chilled_artist13), getString(R.string.chilled_song13)));
+        songs.add(new Track(getString(R.string.chilled_artist14), getString(R.string.chilled_song14)));
+        songs.add(new Track(getString(R.string.chilled_artist15), getString(R.string.chilled_song15)));
+        songs.add(new Track(getString(R.string.chilled_artist16), getString(R.string.chilled_song16)));
+        songs.add(new Track(getString(R.string.chilled_artist17), getString(R.string.chilled_song17)));
+        songs.add(new Track(getString(R.string.chilled_artist18), getString(R.string.chilled_song18)));
+        songs.add(new Track(getString(R.string.chilled_artist19), getString(R.string.chilled_song19)));
+        songs.add(new Track(getString(R.string.chilled_artist20), getString(R.string.chilled_song20)));
 
         /*Create {@link PlaylistAdapter} which creates layouts for each list item
          @param songs represents a list of tracks, shown above*/
@@ -52,5 +52,6 @@ public class ChilledPlaylist extends AppCompatActivity {
         listView.setAdapter(adapter);
 
     }
+
 
 }
